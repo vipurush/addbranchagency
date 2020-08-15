@@ -1,0 +1,353 @@
+body{
+  margin: 0;
+}
+h1{
+  margin-top: 0;
+  margin-left: 28px;
+  padding-top: 20px;
+  font-size: 25px;
+  font-family: 'Montserrat', sans-serif;
+}
+.required{
+  color: red;
+}
+.agencydetails{
+  background-color: #E0FFFF;
+  height: 655px;
+  width:100%;
+  position: relative;
+}
+.agencytype{
+ margin-left: 24px;
+ position: relative;
+ margin-top: 20px;
+}
+.agencytypelabel{
+  font-weight:normal;
+  padding-left: 10px;
+  font-family: 'Merriweather', serif;
+  font-size: 13px;
+}
+.agencytypedropdown{
+  margin-left:29px;
+  height:20px;
+  width:155px;
+  font-family: 'Merriweather', serif;
+  font-size: 12px;
+}
+.agencynameandcode{
+  margin-left: 25px;
+  position: relative;
+  margin-top: 20px;
+}
+.agencynamelabel{
+  font-weight:normal;
+  padding-left: 10px;
+  font-family: 'Merriweather', serif;
+  font-size: 13px;
+}
+.agencynametbox{
+ margin-left:24px;
+ height:15px;
+ width:150px;
+ font-family: 'Merriweather', serif;
+ font-size: 12px;
+}
+.agencycodelabel{
+  font-weight:normal;
+  margin-left: 24px;
+  padding-left: 22px;
+  font-family: 'Merriweather', serif;
+  font-size: 13px;
+}
+.agencycodetbox{
+  margin-left:30px;
+  height:15px;
+  width:150px;
+  font-family: 'Merriweather', serif;
+  font-size: 12px;
+}
+.shortdesc{
+  margin-left: 27px;
+  position:relative;
+  margin-top: 20px;
+}
+.shortdesclabel{
+  font-weight:normal;
+  padding-left: 5px;
+  position:relative;
+  display: inline-block;
+  margin-top: 2px;
+  font-family: 'Merriweather', serif;
+  font-size: 13px;
+}
+.shortdesctext{
+  font-weight: normal;
+  margin-left: 15px;
+  height:35px;
+  width:300px;
+  position:relative;
+  font-family: 'Merriweather', serif;
+  font-size: 12px;
+}
+.addressdetails{
+  margin-left: 25px;
+  position: relative;
+  margin-top: 20px;
+}
+.addressline1label{
+  font-weight:normal;
+  padding-left: 10px;
+  font-family: 'Merriweather', serif;
+  font-size: 13px;
+}
+.addressline1tbox{
+  margin-left:27px;
+  height:15px;
+  width:150px;
+  font-family: 'Merriweather', serif;
+  font-size: 12px;
+}
+.addressline2label{
+  font-weight:normal;
+  margin-left: 20px;
+  padding-left: 20px;
+  font-family: 'Merriweather', serif;
+  font-size: 13px;
+}
+.addressline2tbox{
+  margin-left:30px;
+  height:15px;
+  width:150px;
+  font-family: 'Merriweather', serif;
+  font-size: 12px;
+}
+.contactdetails{
+  margin-left: 25px;
+  position: relative;
+  margin-top: 20px
+}
+.primaryphonelabel{
+  font-weight:normal;
+  padding-left: 10px;
+  font-family: 'Merriweather', serif;
+  font-size: 13px;
+}
+.primaryphonetbox{
+  margin-left:20px;
+  height:15px;
+  width:150px;
+  font-family: 'Merriweather', serif;
+  font-size: 12px;
+}
+.secondayphonelabel{
+  font-weight:normal;
+  margin-left: 20px;
+  padding-left: 20px;
+  font-family: 'Merriweather', serif;
+  font-size: 13px;
+}
+.secondaryphonetbox{
+  margin-left:10px;
+  height:15px;
+  width:150px;
+  font-family: 'Merriweather', serif;
+  font-size: 12px;
+}
+.cityandstate{
+  margin-left: 25px;
+  position: relative;
+  margin-top: 20px;
+}
+.citylabel{
+  font-weight:normal;
+  padding-left: 10px;
+  font-family: 'Merriweather', serif;
+  font-size: 13px;
+}
+.citytbox{
+  margin-left:88px;
+  height:15px;
+  width:150px;
+  font-family: 'Merriweather', serif;
+  font-size: 12px;
+}
+.statelabel{
+  font-weight:normal;
+  margin-left: 20px;
+  padding-left: 20px;
+  font-family: 'Merriweather', serif;
+  font-size: 13px;
+}
+.statetbox{
+  margin-left:87px;
+  height:15px;
+  width:150px;
+  font-family: 'Merriweather', serif;
+  font-size: 12px;
+}
+.countryandzipcode{
+  margin-left: 25px;
+  position: relative;
+  margin-top: 20px;
+}
+.countrylabel{
+  font-weight:normal;
+  padding-left: 10px;
+  font-family: 'Merriweather', serif;
+  font-size: 13px;
+}
+.countrydropdown{
+  margin-left:59px;
+  height:20px;
+  width:160px;
+  font-family: 'Merriweather', serif;
+  font-size: 12px;
+}
+.zipcodelabel{
+  font-weight:normal;
+  margin-left: 22px;
+  padding-left: 20px;
+  font-family: 'Merriweather', serif;
+  font-size: 13px;
+}
+.zipcodetbox{
+  margin-left:69px;
+  height:15px;
+  width:150px;
+  font-family: 'Merriweather', serif;
+  font-size: 12px;
+}
+.contactnameandemail{
+  margin-left: 25px;
+  position: relative;
+  margin-top: 20px;
+}
+.contactnamelabel{
+  font-weight:normal;
+  padding-left: 10px;
+  font-family: 'Merriweather', serif;
+  font-size: 13px;
+}
+.contactnametbox{
+  margin-left:29px;
+  height:15px;
+  width:150px;
+  font-family: 'Merriweather', serif;
+  font-size: 12px;
+}
+.emaillabel{
+  font-weight:normal;
+  margin-left: 20px;
+  padding-left: 20px;
+  font-family: 'Merriweather', serif;
+  font-size: 13px;
+}
+.emailtbox{
+  margin-left:84px;
+  height:15px;
+  width:150px;
+  font-family: 'Merriweather', serif;
+  font-size: 12px;
+}
+.Faxnumber{
+  margin-left: 25px;
+  position: relative;
+  margin-top: 20px;
+}
+.Faxnumberlabel{
+  font-weight:normal;
+  padding-left: 10px;
+  font-family: 'Merriweather', serif;
+  font-size: 13px;
+}
+.faxnumbertbox{
+  margin-left:39px;
+  height:15px;
+  width:150px;
+  font-family: 'Merriweather', serif;
+  font-size: 12px;
+}
+.supportreferral{
+  margin-left: 25px;
+  position: relative;
+  margin-top: 20px;
+}
+.supportreferrallabel{
+  font-weight:normal;
+  padding-left: 10px;
+  font-family: 'Merriweather', serif;
+  font-size: 13px;
+}
+.supportreferracbox{
+  margin-left:18px;
+  height:20px;
+}
+.status{
+  margin-left: 25px;
+  position: relative;
+  margin-top: 20px;
+}
+.activelabel{
+  font-weight:normal;
+  padding-left: 10px;
+  font-family: 'Merriweather', serif;
+  font-size: 13px;
+}
+.activecbox{
+  margin-left:80px;
+  height:20px;
+}
+.submitbutton {
+	box-shadow:inset 0 0 3px 0 #378995;
+	background:linear-gradient(to bottom, #378995 5%, #378995 100%);
+	background-color:#378995;
+	border-radius:6px;
+	border:1px solid #0b0e07;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:'Merriweather', serif;
+	font-size:12px;
+	padding:5px 12px;
+	text-decoration:none;
+	text-shadow:0 1px 3px #378995;
+  margin-left: 250px;
+  margin-top: 20px;
+	width:70px;
+}
+.submitbutton:hover {
+	background:linear-gradient(to bottom, #378995 5%, #378995 100%);
+	background-color:#378995;
+}
+.submitbutton:active {
+	position:relative;
+	top:1px;
+}
+.resetbutton {
+	box-shadow:inset 0 0 3px 0 #778899;
+	background:linear-gradient(to bottom, #778899 5%, #778899 100%);
+	background-color:#778899;
+	border-radius:6px;
+	border:1px solid #0b0e07;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:'Merriweather', serif;
+	font-size:12px;
+	padding:5px 12px;
+	text-decoration:none;
+	text-shadow:0 1px 3px #778899;
+  margin-left: 20px;
+  margin-top: 20px;
+  width:70px;
+
+}
+.resetbutton:hover {
+	background:linear-gradient(to bottom, #778899 5%, #778899 100%);
+	background-color:#778899;
+}
+.resetbutton:active {
+	position:relative;
+	top:1px;
+}

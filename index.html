@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Add Agency</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Sacramento&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <form action="mailto:athish_vinod01@yahoo.com" method="post" enctype="text/plain">
+    <div class="agencydetails">
+      <h1>Add Branch Agency</h1>
+      <div class="agencytype">
+        <label Class="agencytypelabel" for="Agency Type">Agency Type</label><span class="required">*</span>
+        <select class="agencytypedropdown" name="agencytype" required>
+          <option class="agencytypedropdownvalues" value="" disabled selected>Select agency type</option>
+          <option class="agencytypedropdownvalues" value="international">International</option>
+          <option class="agencytypedropdownvalues" value="domestic">Domestic</option>
+          <option class="agencytypedropdownvalues" value="HSI Managed">Self Owned</option>
+        </select>
+      </div>
+      <div class="agencynameandcode">
+        <label class="agencynamelabel" for="Agency Name">Agency Name</label><span class="required">*</span>
+        <input class="agencynametbox" type="text" name="agency name" placeholder="Enter Agency Name" minlenght="2" maxlength="20" required>
+        <label class="agencycodelabel" for="Agency Code">Agency Code</label><span class="required">*</span>
+        <input class="agencycodetbox" type="text" name="agency code" placeholder="Enter Agency Code" minlenght="2" maxlength="20" required>
+      </div>
+      <div class="shortdesc">
+        <label class="shortdesclabel" for="shortdesc">Short Description</label>
+        <textarea class="shortdesctext" name="Description" rows="10" cols="70" minlenght="5" maxlength="250" placeholder="Enter short description of about 5-250 characters"></textarea>
+      </div>
+      <div class="addressdetails">
+        <label class="addressline1label" for="Addressline1">Address Line1</label><span class="required">*</span>
+        <input class="addressline1tbox" type="text" name="addressline1" placeholder="Enter Address Line1" minlenght="2" maxlength="30" required>
+        <label class="addressline2label" for="Addressline2">Address Line2</label>
+        <input class="addressline2tbox" type="text" name="addressline2" placeholder="Enter Address Line2" minlenght="2" maxlength="30">
+      </div>
+      <div class="contactdetails">
+        <label class="primaryphonelabel" for="primaryphone">Primary Phone</label><span class="required">*</span>
+        <input class="primaryphonetbox" type="tel" name="primaryphone" placeholder="Enter Primary Number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+        <label class="secondayphonelabel" for="secondaryphone">Secondary Phone</label>
+        <input class="secondaryphonetbox" type="tel" name="secondaryphone" placeholder="Enter Secondary Number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+      </div>
+      <div class="cityandstate">
+        <label class="citylabel" for="city">City</label><span class="required">*</span>
+        <input class="citytbox" type="text" name="city" placeholder="Enter City" minlenght="2" maxlenght="20" required>
+        <label class="statelabel" for="state">State</label>
+        <input class="statetbox" type="text" name="state" placeholder="Enter State" minlenght="2" maxlenght="20">
+      </div>
+      <div class="countryandzipcode">
+        <label class="countrylabel" for="country">Country</label><span class="required">*</span>
+        <select class="countrydropdown" name="countries" required>
+          <option class="countrydropdownvalues" value="United States of America">United States of America</option>
+          <option class="countrydropdownvalues" value="Australia">Australia</option>
+          <option class="countrydropdownvalues" value="Canada">Canada</option>
+          <option class="countrydropdownvalues" value="India">India</option>
+          <option class="countrydropdownvalues" value="United Kingdom">United Kingdom</option>
+          <option class="countrydropdownvalues" value="United Arab Emirates">United Arab Emirates</option>
+        </select>
+        <label class="zipcodelabel" for="zipcode">Zipcode</label>
+        <input class="zipcodetbox" type="tel" name="zipcode" placeholder="Enter Zipcode" minlenght="5" maxlenght="10">
+      </div>
+      <div class="contactnameandemail">
+        <label class="contactnamelabel" for="contact name">Contact Name</label>
+        <input class="contactnametbox" type="text" name="contactname" placeholder="Enter Contact Name" minlenght="2" maxlength="20">
+        <label class="emaillabel" for="email">Email</label>
+        <input class="emailtbox" type="email" name="email" placeholder="Enter Email ">
+      </div>
+      <div class="Faxnumber">
+        <label class="Faxnumberlabel" for="fax number">Fax Number</label>
+        <input class="faxnumbertbox" type="text" name="faxnumber" placeholder="Enter Fax Number" minlenght="2" maxlength="20">
+      </div>
+      <div class="supportreferral">
+        <label class="supportreferrallabel" for="support referral">Branch Referral</label>
+        <input class="supportreferracbox" type="checkbox" name="supportreferral" disabled checked>
+      </div>
+      <div class="status">
+        <label class="activelabel" for="active">Active</label>
+        <input class="activecbox" type="checkbox" name="active">
+      </div>
+      <div class="buttons">
+        <input class="submitbutton" type="submit" name="submit" value="Submit">
+        <input class="resetbutton" type="reset" name="reset" value="Reset" />
+      </div>
+    </div>
+  </form>
+</body>
+
+</html>
